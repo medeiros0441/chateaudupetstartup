@@ -16,7 +16,7 @@ namespace ChateauDuPet.DAL
             try
             {
                 Conectar();
-                cmd = new SqlCommand("INSERT INTO Certificado  VALUES (@v1,@v2,@v3,@v4,@v5,@v6)", conn);
+                cmd = new SqlCommand("INSERT INTO Certificado (dscurso,dsinstituicao,dsdescricao,fkprofissional,datainicio,dataconclusao)  VALUES (@v1,@v2,@v5,@v6,@v3,@v4)", conn);
                 cmd.Parameters.AddWithValue("@v1", objCad.Curso);
                 cmd.Parameters.AddWithValue("@v2", objCad.Instituicao);
                 cmd.Parameters.AddWithValue("@v3", objCad.DataInicio);

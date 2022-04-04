@@ -197,7 +197,7 @@
                             
                             <div class="col-10">
                                 <label class="form-label">Descrição</label>
-                                <asp:Label runat="server" CssClass="form-text" ID="lblLocalidade"> <%# DataBinder.Eval(Container.DataItem, "Localidade ") %></asp:Label>
+                                <asp:Label runat="server" CssClass="form-text" ID="lblLocalidade"> <%# DataBinder.Eval(Container.DataItem, "dsdescricao ") %></asp:Label>
 
                             </div>
                                 <div class=" col-2">

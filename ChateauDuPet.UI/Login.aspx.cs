@@ -22,21 +22,21 @@ namespace ChateauDuPet.UI
         }
         public void VerificandoUSer () 
         {
-            if (Sessao.IdProfissional != 0)
-            {
+        //    if (Sessao.IdProfissional != 0)
+        //    {
 
-                Response.Redirect("MainPro.aspx");
-            }
+        //        Response.Redirect("MainPro.aspx");
+        //    }
 
-            if (Sessao.IdEmpresa != 0)
-            {
-                Response.Redirect("MainEmpresa.aspx");
-            }
+        //    if (Sessao.IdEmpresa != 0)
+        //    {
+        //        Response.Redirect("MainEmpresa.aspx");
+        //    }
 
-            if (Sessao.IdAdministrativo != 0)
-            {
-                Response.Redirect("MainAdm.aspx");
-            }
+        //    if (Sessao.IdAdministrativo != 0)
+        //    {
+        //        Response.Redirect("MainAdm.aspx");
+        //    }
         }
 
         protected void BtnEntrar_Click(object sender, EventArgs e)

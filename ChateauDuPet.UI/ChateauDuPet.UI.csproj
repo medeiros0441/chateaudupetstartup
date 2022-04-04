@@ -216,6 +216,9 @@
     <Content Include="Scripts\esm\popper.min.js" />
     <None Include="Properties\PublishProfiles\Chateaudupet - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\Chateaudupet - Web Deploy1.pubxml" />
+    <None Include="Properties\PublishProfiles\chateaudupet - Web Deploy2.pubxml" />
+    <None Include="Properties\PublishProfiles\chateaudupet - Web Deploy3.pubxml" />
+    <None Include="Properties\PublishProfiles\chateaudupet - Web Deploy4.pubxml" />
     <None Include="Properties\PublishProfiles\chateaudupetstartup - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\chateaudupetstartup - Web Deploy1.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -662,11 +665,10 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>49719</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:44323/</IISUrl>
+          <IISUrl>http://localhost:49719/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
+          <CustomServerUrl>https://chateaudupet.azurewebsites.net</CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>

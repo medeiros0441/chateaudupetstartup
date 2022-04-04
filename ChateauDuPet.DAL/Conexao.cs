@@ -16,10 +16,10 @@ namespace ChateauDuPet.DAL
 
         //metodos
         protected void Conectar()
-        {
+        { 
             try
-            { /*DataSource=(localdb)\MSSQLLocalDB;Initial Catalog=ChateauDuPetASP; Integrated Security=True*/
-                conn = new SqlConnection(@"Server=tcp:chateaudupet.database.windows.net,1433;Initial Catalog=Chateau;Persist Security Info=False;User ID=chateau;Password=S@m044119;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+            { /*(localdb)\MSSQLLocalDB;Initial Catalog=ChateauDuPetASP; Integrated Security=True*/
+                conn = new SqlConnection(@"Server=tcp:samuelmedeiros.database.windows.net,1433;Initial Catalog=chateaudupet;Persist Security Info=False;User ID=samuelBD;Password=S@m044119;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
                 conn.Open();
                                 
             }

@@ -5,7 +5,11 @@
         <h2>Formação Profissional</h2>
     <hr class="featurette-divider">
                 <div class="row   ms-auto" tabindex="-1">
-                   
+                    <asp:Panel  runat="server" ID="PanelList"  Visible="false" >
+
+            </asp:Panel>
+
+                    <asp:Panel  runat="server" ID="PanelForm"  Visible="false" >
             <div class="col-sm-6">
                 <label id="lblCurso" class="form-label">Nome do Curso</label>
                 <asp:TextBox runat="server" Class="form-control" ID="txtCurso" TabIndex="1" />
@@ -35,7 +39,7 @@
        <asp:Label runat="server" ID="lblMensagemCadastrado"  CssClass="alert alert-success col-lg-6" Visible="False"/>
        
         </div>
-        
+            </asp:Panel>
         <br /><br />
     <div class=" col-lg-12    ">  
           <br />

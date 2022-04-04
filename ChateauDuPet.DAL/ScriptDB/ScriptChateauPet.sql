@@ -1,5 +1,5 @@
 ﻿SELECT * FROM Experiencia  WHERE FKProfissional = @v1  Create database ChateauDuPetASP
-
+select * from table
 update  profissional set  NmProfissional ='', DsEmail=4, NroCPF ='',
 NroTelefone ='', 
 DsBiografia ='',
@@ -19,8 +19,8 @@ DsBiografia ='',
   select * from   Certificado  where FKProfissional = 24; 
   delete vaga where FKCandidatos=12;
 
+select  * From profissional where dsemail='medeiros0442@gmail.com'
 
-  select  * From profissional where dsemail='medeiros0442@gmail.com'
 SELECT DsEmail  FROM Profissional WHERE DsEmail=  'medeiros0441@gmail.com'  SELECT  DsUser FROM Profissional WHERE    DsUser='medeiros0441'  SELECT NroCPF FROM Profissional WHERE   NroCPF='00000000000'  
                                   -- CRIANDO TABELAS E SEGUIDAMENTE SEUS DEVIDOS INSERTS --
 SELECT * from Profissional where DsEmail ='medeiros0441@gmail.com'and  DsUser='medeiros0441' and NroCPF='00000000000' 
@@ -32,7 +32,7 @@ CREATE TABLE [dbo].[TipoUser]
 
 );
 SELECT NMADM,SENHAADM,FKTIPOUSER FROM [Administrativo] WHERE NMADM='SAMUEL' AND SENHAADM='04411' 
-
+ drop table TipoUser
 INSERT INTO [TipoUser] VALUES('Empresa');
 INSERT INTO [TipoUser] VALUES('Profissional');
 INSERT INTO [TipoUser] VALUES('Administrativo');
@@ -132,9 +132,7 @@ CREATE TABLE [dbo].[Profissional]
     DtTermos =@18, 
     DsPrivacidade=@19 ,
     UrlImage=@20, DsUser=@
- 
-INSERT INTO [Profissional] VALUES ('Jucelino Silva','JucelinoSilv@hotmail.com','44455566677','020500','911290115','No ramo de pet desde a infancia, apaixonado por animais','09/03/1995','Superior Completo','Masculino','Rua Alemeada Filho','47','Casa 3','08180180','Lajeado','São Paulo','SP','02/06/2021','02/06/2021','~/Images/Ricardo.jpg',24);
-INSERT INTO [Profissional] VALUES ('Armando Pereira','ArmandosPereira@Outlook.com','33355566622','045322','911290117','Desde criança apaixonado pelos bichos do mundo','05/01/1995','Superior Completo','Masculino','Rua Quatro','155','Sem Complemento','08180150','Sao Martinho','São Paulo','SP','02/06/2021','02/06/2021','~/Images/dwassw.jpg',24);
+  INSERT INTO [Profissional] VALUES ('Armando Pereira','ArmandosPereira@Outlook.com','33355566622','045322','911290117','Desde criança apaixonado pelos bichos do mundo','05/01/1995','Superior Completo','Masculino','Rua Quatro','155','Sem Complemento','08180150','Sao Martinho','São Paulo','SP','02/06/2021','02/06/2021','~/Images/dwassw.jpg',24);
 INSERT INTO [Profissional] VALUES ('Jessica Ferreira','JeehFera@Outlook.com','33655894588','022200','911290112','Apaixonada por bichinhos fofinhos e defensora dos mesmos ','01/01/1995','Superior Completo','Feminino','Rua Dom Miguel','208','Casa 1','08180080','Sao Afoxe','São Paulo','SP','02/06/2021','02/06/2021','~/Images/Jeh.jpg',24);
 INSERT INTO [Profissional] VALUES ('Caroline Cordeiro','CaahCord12@Gmail.com','57626543899','090320','955869445','Amante da profissao desde sempre e pra sempre','02/02/1995','Superior Completo','Feminino','Rua Seven','455','Ap35','08180155','Valinhos','São Paulo','SP','02/06/2021','02/06/2021','~/Images/CaaCord.jpg',24);
 INSERT INTO [Profissional] VALUES ('Caroline Cordeiro','CaahCord12@Gmail.com','57626543899','090320','955869445','sexo',  2);
@@ -143,9 +141,10 @@ INSERT INTO [Profissional] VALUES ('Caroline Cordeiro','CaahCord12@Gmail.com','5
   
 
 -- Consulte Profissional para ver a informação de cada Profissional --
-select * from Certificado;
-
-
+select * from administrativo;
+update  administrativo set emailadm = 'dsadm'
+update administrativo set emailadm = 'medeiros0441@gmail.com';
+S
 SELECT * FROM Profissional
 
 ----------------------------------------------------------------------

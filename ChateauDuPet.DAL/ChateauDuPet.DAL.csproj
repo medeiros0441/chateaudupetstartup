@@ -62,6 +62,7 @@
   <ItemGroup>
     <Content Include="bin\Debug\ChateauDuPet.DAL.dll" />
     <Content Include="bin\Debug\ChateauDuPet.DAL.pdb" />
+    <Content Include="ScriptDB\JavaScript1.js" />
     <Content Include="ScriptDB\ScriptChateauPet.sql" />
   </ItemGroup>
   <ItemGroup>
